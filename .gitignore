@@ -1,0 +1,14 @@
+# Secrets - never commit these
+.env
+*.key
+
+# Market data and results are large and regenerable
+data/
+results/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
